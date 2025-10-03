@@ -1,0 +1,131 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      transition: 1s;
+    }
+
+    main {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    form h2 {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+.select-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  select {
+    width: 80%;
+  }
+}
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    
+button.toggle-shit {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 40px;
+      height: 40px;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      place-items: center;
+      
+      i {
+        font-size: 20px;
+      }
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .result {
+      margin-top: 15px;
+      font-size: 18px;
+      color: #333;
+      font-weight: bold;
+    }
+    
+    body.dark {
+      background-color: black;
+      
+
+main {
+  background-color: #1e1e1e;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+form h2 {
+  color: #cccccc;
+}
+
+input, select {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  background-color: #bb86fc;
+  color: #121212;
+}
+
+button:hover {
+  background-color: #9a63d8;
+}
+
+.result {
+  color: #ffffff;
+}
+
+.select-parent {
+  color: #aaa;
+}  }
+    

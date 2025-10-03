@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+</head>
+<body>
+  <button class="toggle-shit" aria-label="toggles the theme, duh!">
+    <i class="fas fa-moon"></i>
+  </button>
+<main>
+  <header>
+    <h1>Currency Converter Hai</h1>
+    </header>
+  <form>
+    <h2>Enter the amount</h1>
+    <input type="number" class="input" placeholder="20.00"/>
+ <div>
+   
+   <div class="select-parent">From
+<select id="base">
+  <option value="AFN">🇦🇫 AFN</option>
+<option value="EUR">🇪🇺 EUR</option>
+<option value="GBP">🇬🇧 GBP</option>
+<option value="USD">🇺🇸 USD</option>
+<option value="INR">🇮🇳 INR</option>
+<option value="JPY">🇯🇵 JPY</option>
+<option value="CAD">🇨🇦 CAD</option>
+<option value="AUD">🇦🇺 AUD</option>
+<option value="CHF">🇨🇭 CHF</option>
+<option value="CNY">🇨🇳 CNY</option>
+<option value="NZD">🇳🇿 NZD</option>
+<option value="SGD">🇸🇬 SGD</option>
+<option value="PKR">🇵🇰 PKR</option>
+<option value="AED">🇦🇪 AED</option>
+</select>
+</div>
+
+<div class="select-parent">To
+<select id="target">
+  <option value="USD">🇺🇸 USD</option>
+<option value="EUR">🇪🇺 EUR</option>
+<option value="GBP">🇬🇧 GBP</option>
+<option value="USD">🇺🇸 USD</option>
+<option value="INR">🇮🇳 INR</option>
+  <option value="AFN">🇦🇫 AFN</option>
+<option value="JPY">🇯🇵 JPY</option>
+<option value="CAD">🇨🇦 CAD</option>
+<option value="AUD">🇦🇺 AUD</option>
+<option value="CHF">🇨🇭 CHF</option>
+<option value="CNY">🇨🇳 CNY</option>
+<option value="NZD">🇳🇿 NZD</option>
+<option value="SGD">🇸🇬 SGD</option>
+<option value="PKR">🇵🇰 PKR</option>
+<option value="AED">🇦🇪 AED</option>
+</select>
+</div>
+</div>
+  </form>
+      <button>Convert</button>
+  <p class="result">Result</p>
+</main>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
